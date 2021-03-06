@@ -1,11 +1,20 @@
 html {
   scroll-behavior: smooth;
 }
-
-/* KRAKENFALL PAGE CSS --------------------------------------------------------- */
 :root {
   --text-color: #908769;
   --gradient: -webkit-linear-gradient(#7b6c39, #3c2f14);
+}
+
+#copyright {
+  background-color: #000000;
+  margin: 0;
+  padding: 10px;
+  font-family: "Amethysta", serif;
+  text-align: center;
+  color: var(--text-color);
+  font-size: 10px;
+  text-align-last: center;
 }
 
 .kraktop {
@@ -56,6 +65,7 @@ html {
 }
 .krakenfallbackgroundcolor {
   background-color: #0e0e0e;
+  margin: 0;
 }
 
 .thumbnailcontainer {
