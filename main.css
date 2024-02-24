@@ -2,6 +2,7 @@ body {
   background-image: url(BgTexture.png);
   background-repeat: repeat;
   background-size: cover;
+  overflow: hidden;
 }
 .HomeBackground {
   margin: 0;
