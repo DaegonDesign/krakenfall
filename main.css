@@ -1,28 +1,28 @@
 body {
   background-image: url(BgTexture.png);
   background-repeat: repeat;
-  background-size: cover;
+  background-size: 800px;
   overflow: hidden;
 }
 .HomeBackground {
   margin: 0;
+  width: 100%;
   padding: 0;
 }
 #homepagebackground {
-  width: 100%;
+  left: 50%;
+  width: 500px;
   position: relative;
   cursor: default;
+  margin-left: -250px;
 }
 
-#spanTexture {
-  width: 100%;
-  position: absolute;
-}
 
 @media screen and (max-width: 1020px) {
   #homepagebackground {
-    width: 450%;
+    width: 100%;
     position: absolute;
-    left: -174.5%;
+    margin-left: 0px;
+    left: 0;
   }
 }
